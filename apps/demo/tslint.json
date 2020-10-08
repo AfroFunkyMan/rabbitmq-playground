@@ -1,0 +1,15 @@
+{
+  "extends": "../../tslint.json",
+  "rules": {
+    "directive-selector": [
+      true,
+      "attribute",
+      "rabbitmqPlayground",
+      "camelCase"
+    ],
+    "component-selector": [true, "element", "rabbitmq-playground", "kebab-case"]
+  },
+  "linterOptions": {
+    "exclude": ["!**/*"]
+  }
+}
